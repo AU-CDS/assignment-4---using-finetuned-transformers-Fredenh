@@ -43,7 +43,7 @@ Diving into the emotion distribution, it is clear that what we might generalize 
 # Usage
 * First you need to download the data from this [Kaggle](https://www.kaggle.com/datasets/jillanisofttech/fake-or-real-news) and make sure to put it into the _in_ folder.
 * Then you run ```bash setup.sh``` from the command line to install packages and create a virtual environment
-* !OBS! i had sometimes [issues](https://www.datasciencelearner.com/modulenotfounderror-no-module-named-transformers-solved/) with the installment of transformers, so run this before running to script to be safe: ```pip3 install transformers```
+* !OBS! i had sometimes [issues](https://www.datasciencelearner.com/modulenotfounderror-no-module-named-transformers-solved/) with the installment of transformers, so run this before running the script to be safe: ```pip3 install transformers```
 * Run ```source ./assignment2_env/bin/activate``` to activate the virtual environment
 * Then run the script ```python3 src/emotion_class.py```. The data will be unzipped into the correct location as the first thing from within the script
 * The output of the script are located in two different folders. The bar plots are located in the _figs_ folder while the CSV's are located in the _out_ folder
