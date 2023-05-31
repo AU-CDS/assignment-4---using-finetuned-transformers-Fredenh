@@ -31,6 +31,7 @@ The data used for this assignment is once again the [_Fake or Real News_](https:
 * ```matplotlib``` is used to make interpretable plots
 * ```os``` is used to navigate paths
 * ```transformers``` is used to import pipeline
+* ```TensorFlow``` is used in order for everything to run
 * ```zipfile``` is used to unzip the data 
 
 # Methods
